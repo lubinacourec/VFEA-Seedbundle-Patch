@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>marlemmo.patches.vfeaferny</packageId>
+	<author>Marle</author>
+	<name>VFEA Seedbundle Patch</name>
+	<description>
+Ancient supply slingshot yeets your seed bundles into the ether.
+	</description>
+	<url>https://github.com/lubinacourec/VFEA-Seedbundle-Patch</url>
+	<supportedVersions>
+	  <li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>vanillaexpanded.vfea</packageId>
+			<displayName>Vanilla Factions Expanded - Ancients</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2654846754</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ferny.progressionagriculture</packageId>
+			<displayName>Progression: Agriculture</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3418017359</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+	<loadAfter>
+	<!-- Not strictly required, but keeps related mods together -->
+		<li>vanillaexpanded.vfea</li>
+	</loadAfter>
+</ModMetaData>
